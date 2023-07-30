@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Details_Second_Activity"
+    android:orientation="vertical"
+    android:layout_margin="50dp"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:id="@+id/activity_details__second_imgview"
+        android:layout_marginLeft="20dp"
+
+        />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Contact Name"
+            android:id="@+id/activity_details__second_contname"
+            android:textSize="30sp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+        />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Contact No"
+            android:id="@+id/activity_details__second_contno"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:gravity="center"
+            />
+
+</LinearLayout>
